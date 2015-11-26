@@ -21,12 +21,12 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" 
+            android:label="@string/app_name"
             android:parentActivityName=".PreLoginActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.bank.prelogin.PreLoginActivity" />
-            
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -67,6 +67,15 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.bank.bankemulation.MainActivity" />
+        </activity>
+        
+        <activity
+            android:name=".AccountSummary"
+            android:label="@string/title_activity_account_summary"
+            android:parentActivityName=".WelcomeHomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bank.bankemulation.WelcomeHomeActivity" />
         </activity>
     </application>
 

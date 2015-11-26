@@ -19,18 +19,25 @@
     <string name="book_appointment">Appointment Booking</string>
     <string name="virtual_assistant">Virtual Assistant</string>
     <string name="title_activity_welcome_home">WelcomeHomeActivity</string>
-    
+
     <!-- Pre-login activity ends -->
-    
+
+
     <!-- WelcomeHome activity starts -->
-    
     <string name="home_welcome">Welcome Customer</string>
     <string name="account_view">View Account</string>
     <string name="funds_transfer">Transfer Funds</string>
     <string name="appointment_book">Book Appointment</string>
     <string name="request_place">Place request</string>
+	<!-- WelcomeHome activity ends -->
+   
+    
+    <!-- AccountSummary activity starts -->
+    <string name="account_summary">Account Summary</string>
+    <string name="savings_balance">Savings</string>
+    <string name="card_balance">Credit Card</string>
+    <string name="title_activity_account_summary">Account Summary</string>
+    <!-- AccountSummary activity ends -->
     
     
-    <!-- WelcomeHome activity ends -->
-
 </resources>

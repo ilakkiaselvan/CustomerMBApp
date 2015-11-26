@@ -27,34 +27,41 @@ public final class R {
         public static final int ic_receipt_white_48dp=0x7f020007;
     }
     public static final class id {
-        public static final int account_label_password=0x7f090009;
-        public static final int action_settings=0x7f09000c;
-        public static final int book_appointment=0x7f090004;
-        public static final int card_account_field=0x7f090008;
-        public static final int card_account_label=0x7f090007;
-        public static final int card_title=0x7f090006;
-        public static final int email_sign_in_button=0x7f09000b;
-        public static final int password=0x7f09000a;
-        public static final int place_request=0x7f090005;
-        public static final int sample_content_fragment=0x7f090001;
-        public static final int sample_main_layout=0x7f090000;
-        public static final int transfer_funds=0x7f090003;
-        public static final int view_account=0x7f090002;
+        public static final int account_label_password=0x7f09000a;
+        public static final int action_settings=0x7f09000d;
+        public static final int book_appointment=0x7f090005;
+        public static final int card_account_field=0x7f090009;
+        public static final int card_account_label=0x7f090008;
+        public static final int card_title=0x7f090007;
+        public static final int email_sign_in_button=0x7f09000c;
+        public static final int password=0x7f09000b;
+        public static final int place_request=0x7f090006;
+        public static final int sample_content_fragment=0x7f090002;
+        public static final int sample_main_layout=0x7f090001;
+        public static final int savings_balance=0x7f090000;
+        public static final int transfer_funds=0x7f090004;
+        public static final int view_account=0x7f090003;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int activity_pre_login=0x7f030001;
-        public static final int activitywelcome_home=0x7f030002;
-        public static final int main_fragment=0x7f030003;
+        public static final int activity_account_summary=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int activity_pre_login=0x7f030002;
+        public static final int activitywelcome_home=0x7f030003;
+        public static final int main_fragment=0x7f030004;
     }
     public static final class menu {
-        public static final int main=0x7f080000;
-        public static final int pre_login=0x7f080001;
-        public static final int welcome_home=0x7f080002;
+        public static final int account_summary=0x7f080000;
+        public static final int main=0x7f080001;
+        public static final int pre_login=0x7f080002;
+        public static final int welcome_home=0x7f080003;
     }
     public static final class string {
         public static final int account_number=0x7f060005;
         public static final int account_password=0x7f060006;
+        /**  WelcomeHome activity ends 
+ AccountSummary activity starts 
+         */
+        public static final int account_summary=0x7f060014;
         public static final int account_view=0x7f060010;
         public static final int action_settings=0x7f060002;
         public static final int action_sign_in_button=0x7f060007;
@@ -62,6 +69,7 @@ public final class R {
         public static final int appointment_book=0x7f060012;
         public static final int bank_name=0x7f060004;
         public static final int book_appointment=0x7f06000c;
+        public static final int card_balance=0x7f060016;
         public static final int card_title=0x7f060009;
         public static final int emulation_sample=0x7f060008;
         public static final int funds_transfer=0x7f060011;
@@ -75,6 +83,8 @@ public final class R {
          */
         public static final int login_text=0x7f06000b;
         public static final int request_place=0x7f060013;
+        public static final int savings_balance=0x7f060015;
+        public static final int title_activity_account_summary=0x7f060017;
         public static final int title_activity_pre_login=0x7f06000a;
         public static final int title_activity_welcome_home=0x7f06000e;
         public static final int virtual_assistant=0x7f06000d;
