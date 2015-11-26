@@ -11,6 +11,13 @@
     <string name="action_sign_in_button">Sign In</string>
     <string name="emulation_sample">CardEmulation Sample</string>
     <string name="card_title">The Bank Services</string>
+    <string name="title_activity_pre_login">PreLoginActivity</string>
+    
+    <!-- Pre-login activity starts -->
+    
+    <string name="login_text">Login</string>
+    <string name="book_appointment">Appointment Booking</string>
+    <string name="virtual_assistant">Virtual Assistant</string>
     
 
 </resources>
