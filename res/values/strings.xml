@@ -12,12 +12,25 @@
     <string name="emulation_sample">CardEmulation Sample</string>
     <string name="card_title">The Bank Services</string>
     <string name="title_activity_pre_login">PreLoginActivity</string>
-    
+
     <!-- Pre-login activity starts -->
-    
+
     <string name="login_text">Login</string>
     <string name="book_appointment">Appointment Booking</string>
     <string name="virtual_assistant">Virtual Assistant</string>
+    <string name="title_activity_welcome_home">WelcomeHomeActivity</string>
     
+    <!-- Pre-login activity ends -->
+    
+    <!-- WelcomeHome activity starts -->
+    
+    <string name="home_welcome">Welcome Customer</string>
+    <string name="account_view">View Account</string>
+    <string name="funds_transfer">Transfer Funds</string>
+    <string name="appointment_book">Book Appointment</string>
+    <string name="request_place">Place request</string>
+    
+    
+    <!-- WelcomeHome activity ends -->
 
 </resources>

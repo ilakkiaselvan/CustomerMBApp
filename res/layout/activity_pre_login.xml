@@ -14,32 +14,35 @@
     
     
         <Button 
-            android:id="@id/login_button"
+            
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/login_text"
             android:drawableTop="@drawable/ic_lock_outline_white_48dp"
-            android:background="#05a1f8"
+            android:background="#1E90FF"
             android:layout_marginBottom="20dp"
+            android:onClick="preLogin"
             />
         
         <Button 
-            android:id="@id/book_appointment"
+            
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/book_appointment"
             android:drawableTop="@drawable/ic_perm_contact_calendar_white_48dp"
-            android:background="#05a1f8"
+            android:background="#1E90FF"
             android:layout_marginBottom="20dp"
+            android:onClick="bookAppointment"
             />
         
         <Button 
-            android:id="@id/virtual_assistant"
+            
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/virtual_assistant"
             android:drawableTop="@drawable/ic_assistant_white_48dp"
-            android:background="#05a1f8"
+            android:background="#1E90FF"
+            android:onClick="virtualAssistant"
             
             />
         
