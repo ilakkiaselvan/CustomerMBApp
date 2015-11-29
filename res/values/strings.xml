@@ -7,7 +7,6 @@
     <string name="img_background">Background</string>
     <string name="bank_name">The Bank</string>
     <string name="account_number">Account Number</string>
-    <string name="account_password">Password</string>
     <string name="action_sign_in_button">Sign In</string>
     <string name="emulation_sample">CardEmulation Sample</string>
     <string name="card_title">The Bank Services</string>
@@ -29,15 +28,25 @@
     <string name="funds_transfer">Transfer Funds</string>
     <string name="appointment_book">Book Appointment</string>
     <string name="request_place">Place request</string>
-	<!-- WelcomeHome activity ends -->
-   
-    
+    <!-- WelcomeHome activity ends -->
+
+
     <!-- AccountSummary activity starts -->
     <string name="account_summary">Account Summary</string>
     <string name="savings_balance">Savings</string>
-    <string name="card_balance">Credit Card</string>
+    <string name="credit_amount">Credit Card</string>
     <string name="title_activity_account_summary">Account Summary</string>
+    <string name="current_account">Current Account</string>
+    <string name="savings_hint">Rs 6,000</string>
+    <string name="credit_hint">Rs 7,000</string>
+    <string name="current_hint">Rs 500</string>
     <!-- AccountSummary activity ends -->
-    
-    
+
+
+    <!-- Login starts -->
+    <string name="prompt_account_number">Account Number</string>
+    <string name="theBank">The Bank</string>
+    <string name="prompt_password">Password</string>
+    <string name="title_activity_book_appointment">BookAppointmentActivity</string>
+
 </resources>
