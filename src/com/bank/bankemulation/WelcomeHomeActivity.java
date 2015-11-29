@@ -1,9 +1,11 @@
 package com.bank.bankemulation;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class WelcomeHomeActivity extends Activity {
 
@@ -30,5 +32,15 @@ public class WelcomeHomeActivity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	
+	public void  viewAccountSummary(View view) {
+		Intent intent=new Intent(this, AccountSummary.class);
+		startActivity(intent);
+	}
+	
+	public void  bookAppointment(View view) {
+		Intent intent=new Intent(this, BookAppointmentActivity.class);
+		startActivity(intent);
 	}
 }

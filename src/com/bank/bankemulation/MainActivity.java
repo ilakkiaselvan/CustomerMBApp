@@ -1,11 +1,13 @@
 package com.bank.bankemulation;
 
 
+import android.content.Intent;
+import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
-import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MainActivity extends FragmentActivity{
@@ -47,5 +49,8 @@ public class MainActivity extends FragmentActivity{
 	/**
 	 * A placeholder fragment containing a simple view.
 	 */
-	
+	public void onLogin(View view) {
+		Intent intent=new Intent(this, WelcomeHomeActivity.class);
+		startActivity(intent);
+	}
 }

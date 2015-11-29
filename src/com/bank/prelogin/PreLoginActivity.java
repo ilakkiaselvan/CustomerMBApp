@@ -1,14 +1,14 @@
 package com.bank.prelogin;
 
+import com.bank.bankemulation.MainActivity;
 import com.bank.bankemulation.R;
-import com.bank.bankemulation.R.id;
-import com.bank.bankemulation.R.layout;
-import com.bank.bankemulation.R.menu;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class PreLoginActivity extends Activity {
 
@@ -35,5 +35,10 @@ public class PreLoginActivity extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	
+	public void preLogin(View view){
+		Intent intent=new Intent(this, MainActivity.class);
+		startActivity(intent);
 	}
 }

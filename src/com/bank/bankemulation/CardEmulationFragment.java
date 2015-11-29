@@ -57,4 +57,6 @@ public class CardEmulationFragment extends Fragment {
 		
 	}
 	
+	
+	
 }

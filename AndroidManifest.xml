@@ -21,12 +21,9 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:parentActivityName=".PreLoginActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.bank.prelogin.PreLoginActivity" />
+            android:name="com.bank.prelogin.PreLoginActivity"
+            android:label="@string/title_activity_pre_login" >
+            
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -58,8 +55,12 @@
         </service>
         <!-- END_INCLUDE(CardEmulationManifest) -->
         <activity
-            android:name="com.bank.prelogin.PreLoginActivity"
-            android:label="@string/title_activity_pre_login" >
+            android:name="com.bank.bankemulation.MainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.bank.prelogin.PreLoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.bank.prelogin.PreLoginActivity" />
         </activity>
         <activity
             android:name=".WelcomeHomeActivity"
